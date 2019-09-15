@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book details</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i&display=swap" rel="stylesheet">
+    <style>
+
+
+        .navigacija{
+            padding-top: 10px;
+            padding-left: 2px;
+            height: 80px;
+            font-size: 18px;
+
+        }
+        .dole{
+            margin-top: 60px;
+            margin-left: 50px;
+        }
+        .pogolemi{
+            font-size: 20px;
+            margin-top: -10px;
+            margin-left: -20px;
+        }
+        .podredeni{
+            margin-left: 10px;
+            margin-bottom: 9px;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="navigacija">
+        <div class="container-fluid">
+            <div class="navbar-header" style="margin-right: 100px">
+                <a class="navbar-brand" href="gledna_tocka.html" style="margin-left: 100px;font-weight: bold;font-size: 40px">IOBooks</a>
+            </div>
+
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping cart</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-heart"></span> Wishlist</a></li>
+                <li><a href="myacconut.html"><span class="glyphicon glyphicon-user"></span> My account </a></li>
+                <li><a href="log_in.html"><span class="glyphicon glyphicon-user"></span> Log out </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="row dole">
+    <div class="col-sm-3">
+
+
+        <img src="put1.png" class="img-responsive margin zaedno" style="width:100%;margin-left: 80px;margin-top: 50px" alt="Image"><br>
+            <p style="font-family:'Book Antiqua';margin-left: 30%;font-size: 20px;text-align: center;width: 300px"><em>Post your book image here</em></p>
+
+
+    </div>
+    <div class="col-sm-9 ">
+        <div class="row" style="margin-left: 200px">
+
+            <h1 style="width: 1000px;margin-top: 2px;font-family:'Book Antiqua';font-size: 45px">My books</h1>
+            <hr style="width:800px;margin-left: -10px;">
+            <br>
+            <div class="col-sm-8">
+                <div class="pogolemi">
+                    <h2 style="margin-top: 2px;font-family:'Book Antiqua'">Book information</h2><br>
+                    <label >Name: </label> <input type="text" class="podredeni" style="margin-left: 170px;"><br>
+                    <label >Paperback: </label> <input type="text" class="podredeni" style="margin-left: 123px;"><br>
+                    <label >Publisher: </label> <input type="text" class="podredeni" style="margin-left: 133px;"><br>
+                    <label >Publishing date: </label> <input type="text" class="podredeni" style="margin-left: 74px;"><br>
+                    <label >Language:  </label> <input type="text" class="podredeni" style="margin-left: 128px"><br>
+                    <label >Price: </label> <input type="text" class="podredeni" style="margin-left: 173px;"> <br>
+                    <label> The book is for: </label> <br>
+
+                    <input type="checkbox" name="odberi" value="Post" style="margin-top: 20px" > Sale
+                    <input type="checkbox" name="odberi" value="Exchange" style="margin-left: 17px;"> Exchange
+
+                </div>
+                <button type="button" class="btn btn-info" onclick="location.href='new.html'" style="width: 200px;height: 40px;margin-top: 20px;margin-left: -20px;">
+                    <a href="new.html" style="text-decoration: none;color: white;font-size: 20px;">Post a book</a>
+            </div>
+            <div class="col-sm-0" style="margin-left: 100px;width: 200px">
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<footer  style="background-color: black;color:white;height: 100px;margin-top: 90px">
+    <p style="text-align: center;padding-top: 30px;font-size: 17px;">Copyright  &copy;Benikj.student@gmail.com</p>
+
+</footer>
+
+</body>
+</html>

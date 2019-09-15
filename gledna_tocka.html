@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Gledna tocka</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400i&display=swap" rel="stylesheet">
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .slika {
+            /* The image used */
+            background-image: url("3.jpg");
+
+            /* Full height */
+            position: absolute;
+            height: 80%;
+            width: 100%;
+            padding-top: 0px;
+
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .centralni{
+            margin-left: -10px;
+
+        }
+        .bg-3 {
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+        hr{
+            width: 100px;
+        }
+        .proba{
+            position: relative;
+            height: 550px;
+            width: 100%;
+            padding-top: 0px;
+        }
+        .margin {margin-bottom: 45px;}
+        .zaedno{
+            width:10px;
+            height: 400px;
+        }
+        body > nav{
+            height: 70px;
+        }
+        .navigacija{
+            padding-top: 10px;
+            padding-left: 2px;
+            height: 80px;
+
+        }
+        body > div:nth-child(2) > img{
+            margin-top: -20px;
+        }
+
+        .navigacija{
+            padding-top: 10px;
+            padding-left: 2px;
+            height: 80px;
+            font-size: 18px;
+
+        }
+        .podesno{
+            padding-left: 0px;
+            font-size: 15px;
+            margin-left: -20px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="navigacija">
+    <div class="container-fluid">
+        <div class="navbar-header" style="margin-right: 100px">
+            <a class="navbar-brand" href="gledna_tocka.html" style="margin-left: 100px;font-weight: bold;font-size:40px">IOBooks</a>
+        </div>
+        <ul class="nav navbar-nav navbar-center">
+
+
+
+
+                <li class="centralni active" style="padding-left: 150px;"><a href="gledna_tocka.html"> Home</a></li>
+                <li class="centralni"   ><a href="new.html"> Books</a></li>
+                <li class="centralni"><a href="shop.html"> Shop</a></li>
+                <li class="centralni"><a href="exchange.html"> Exchange</a></li>
+
+                <li class="centralni"><a href="#"> Contact us</a></li>
+            </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class="podesno"><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Shopping cart</a></li>
+            <li class="podesno"><a href="#"><span class="glyphicon glyphicon-heart"></span> Wishlist</a></li>
+            <li class="podesno"><a href="myacconut.html"><span class="glyphicon glyphicon-user"></span> My account</a></li>
+            <li class="podesno"><a href="log_in.html"></span> Log out</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<div >
+    <img src="3.jpg" alt="" class="proba">
+    <h1 style="color:white;text-align: center;font-family: 'Crimson Text', serif;font-size: 80px; position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);"><strong>Welcome to our website</strong></h1>
+
+    <p style="color:white;text-align: center;font-family: 'Crimson Text', serif;font-size: 30px; position: absolute;top: 61%;left: 50%;transform: translate(-50%, -50%);">Read your book and make your future better</p>
+
+
+
+
+</div>
+<br>
+
+<div class="container bg-3 text-center">
+
+    <h3  style="font-family:'Book Antiqua';padding-bottom: 0px;"> <strong> New books</strong>   </h3>
+    <a href="new.html" class="margin" style="text-decoration: none;font-size: 12px;">See All</a> <i class="form control	glyphicon glyphicon-arrow-right "></i>
+   <hr>
+
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-sm-4">
+            <a href="book1.html">
+                <img src="js.jpg" class="img-responsive margin zaedno" style="width:100%" alt="Image"></a>
+            <p> JavaScript: The Good Parts (Paperback)by Douglas Crockford
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <a href="book3.html">
+                <img src="sql.jpg" class="img-responsive margin zaedno" style="width:100%" alt="Image"></a>
+            <p>SQL Cookbook: Query Solutions and Techniques for Database Developers (Cookbooks (O'Reilly)) 1st Edition, Kindle Edition</p>
+        </div>
+        <div class="col-sm-4">
+            <a href="book4.html">
+                <img src="data1.jpg" class="img-responsive margin zaedno" style="width:100%" alt="Image"></a>
+            <p>Data Analysis Using SQL and Excel 2nd Edition, Kindle Edition</p>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
